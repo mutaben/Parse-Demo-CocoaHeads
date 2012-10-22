@@ -17,7 +17,26 @@
 		906BD1CE163582BA0089B72F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BD1CD163582BA0089B72F /* Default@2x.png */; };
 		906BD1D0163582BA0089B72F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BD1CF163582BA0089B72F /* Default-568h@2x.png */; };
 		906BD1D3163582BA0089B72F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906BD1D1163582BA0089B72F /* MainStoryboard.storyboard */; };
-		906BD1D6163582BA0089B72F /* TIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BD1D5163582BA0089B72F /* TIViewController.m */; };
+		906BD1E11635834B0089B72F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD1E01635834B0089B72F /* Parse.framework */; };
+		906BD1F7163583AC0089B72F /* TIRoomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BD1F0163583AC0089B72F /* TIRoomTableViewController.m */; };
+		906BD1F8163583AC0089B72F /* TIRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BD1F2163583AC0089B72F /* TIRoomViewController.m */; };
+		906BD1F9163583AC0089B72F /* TISendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BD1F4163583AC0089B72F /* TISendMessageViewController.m */; };
+		906BD1FA163583AC0089B72F /* TIUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BD1F6163583AC0089B72F /* TIUserViewController.m */; };
+		906BD1FD163583BB0089B72F /* cocoaheads.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BD1FB163583BB0089B72F /* cocoaheads.png */; };
+		906BD1FE163583BB0089B72F /* cocoaheads@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BD1FC163583BB0089B72F /* cocoaheads@2x.png */; };
+		906BD200163584350089B72F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD1FF163584350089B72F /* Accounts.framework */; };
+		906BD2021635843C0089B72F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD2011635843C0089B72F /* AdSupport.framework */; };
+		906BD204163584500089B72F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD203163584500089B72F /* AudioToolbox.framework */; };
+		906BD206163584590089B72F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD205163584590089B72F /* CFNetwork.framework */; };
+		906BD208163584670089B72F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD207163584660089B72F /* CoreLocation.framework */; };
+		906BD20A163584750089B72F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD209163584750089B72F /* libsqlite3.dylib */; };
+		906BD20C1635847D0089B72F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD20B1635847D0089B72F /* libz.1.1.3.dylib */; };
+		906BD20E163584860089B72F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD20D163584860089B72F /* MobileCoreServices.framework */; };
+		906BD210163584920089B72F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD20F163584920089B72F /* QuartzCore.framework */; };
+		906BD212163584950089B72F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD211163584950089B72F /* Security.framework */; };
+		906BD214163584990089B72F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD213163584990089B72F /* Social.framework */; };
+		906BD216163584A50089B72F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD215163584A50089B72F /* StoreKit.framework */; };
+		906BD218163584A90089B72F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BD217163584A90089B72F /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +54,30 @@
 		906BD1CD163582BA0089B72F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		906BD1CF163582BA0089B72F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		906BD1D2163582BA0089B72F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		906BD1D4163582BA0089B72F /* TIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIViewController.h; sourceTree = "<group>"; };
-		906BD1D5163582BA0089B72F /* TIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIViewController.m; sourceTree = "<group>"; };
+		906BD1E01635834B0089B72F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		906BD1EF163583AC0089B72F /* TIRoomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIRoomTableViewController.h; path = ViewControllers/TIRoomTableViewController.h; sourceTree = "<group>"; };
+		906BD1F0163583AC0089B72F /* TIRoomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIRoomTableViewController.m; path = ViewControllers/TIRoomTableViewController.m; sourceTree = "<group>"; };
+		906BD1F1163583AC0089B72F /* TIRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIRoomViewController.h; path = ViewControllers/TIRoomViewController.h; sourceTree = "<group>"; };
+		906BD1F2163583AC0089B72F /* TIRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIRoomViewController.m; path = ViewControllers/TIRoomViewController.m; sourceTree = "<group>"; };
+		906BD1F3163583AC0089B72F /* TISendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TISendMessageViewController.h; path = ViewControllers/TISendMessageViewController.h; sourceTree = "<group>"; };
+		906BD1F4163583AC0089B72F /* TISendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TISendMessageViewController.m; path = ViewControllers/TISendMessageViewController.m; sourceTree = "<group>"; };
+		906BD1F5163583AC0089B72F /* TIUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIUserViewController.h; path = ViewControllers/TIUserViewController.h; sourceTree = "<group>"; };
+		906BD1F6163583AC0089B72F /* TIUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIUserViewController.m; path = ViewControllers/TIUserViewController.m; sourceTree = "<group>"; };
+		906BD1FB163583BB0089B72F /* cocoaheads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocoaheads.png; sourceTree = "<group>"; };
+		906BD1FC163583BB0089B72F /* cocoaheads@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cocoaheads@2x.png"; sourceTree = "<group>"; };
+		906BD1FF163584350089B72F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		906BD2011635843C0089B72F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		906BD203163584500089B72F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		906BD205163584590089B72F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		906BD207163584660089B72F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		906BD209163584750089B72F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		906BD20B1635847D0089B72F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		906BD20D163584860089B72F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		906BD20F163584920089B72F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		906BD211163584950089B72F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		906BD213163584990089B72F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		906BD215163584A50089B72F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		906BD217163584A90089B72F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +85,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906BD218163584A90089B72F /* SystemConfiguration.framework in Frameworks */,
+				906BD216163584A50089B72F /* StoreKit.framework in Frameworks */,
+				906BD214163584990089B72F /* Social.framework in Frameworks */,
+				906BD212163584950089B72F /* Security.framework in Frameworks */,
+				906BD210163584920089B72F /* QuartzCore.framework in Frameworks */,
+				906BD20E163584860089B72F /* MobileCoreServices.framework in Frameworks */,
+				906BD20C1635847D0089B72F /* libz.1.1.3.dylib in Frameworks */,
+				906BD20A163584750089B72F /* libsqlite3.dylib in Frameworks */,
+				906BD208163584670089B72F /* CoreLocation.framework in Frameworks */,
+				906BD206163584590089B72F /* CFNetwork.framework in Frameworks */,
+				906BD204163584500089B72F /* AudioToolbox.framework in Frameworks */,
+				906BD2021635843C0089B72F /* AdSupport.framework in Frameworks */,
+				906BD200163584350089B72F /* Accounts.framework in Frameworks */,
 				906BD1BA163582BA0089B72F /* UIKit.framework in Frameworks */,
 				906BD1BC163582BA0089B72F /* Foundation.framework in Frameworks */,
 				906BD1BE163582BA0089B72F /* CoreGraphics.framework in Frameworks */,
+				906BD1E11635834B0089B72F /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +128,20 @@
 		906BD1B8163582BA0089B72F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				906BD217163584A90089B72F /* SystemConfiguration.framework */,
+				906BD215163584A50089B72F /* StoreKit.framework */,
+				906BD213163584990089B72F /* Social.framework */,
+				906BD211163584950089B72F /* Security.framework */,
+				906BD20F163584920089B72F /* QuartzCore.framework */,
+				906BD20D163584860089B72F /* MobileCoreServices.framework */,
+				906BD20B1635847D0089B72F /* libz.1.1.3.dylib */,
+				906BD209163584750089B72F /* libsqlite3.dylib */,
+				906BD207163584660089B72F /* CoreLocation.framework */,
+				906BD205163584590089B72F /* CFNetwork.framework */,
+				906BD203163584500089B72F /* AudioToolbox.framework */,
+				906BD2011635843C0089B72F /* AdSupport.framework */,
+				906BD1FF163584350089B72F /* Accounts.framework */,
+				906BD1E01635834B0089B72F /* Parse.framework */,
 				906BD1B9163582BA0089B72F /* UIKit.framework */,
 				906BD1BB163582BA0089B72F /* Foundation.framework */,
 				906BD1BD163582BA0089B72F /* CoreGraphics.framework */,
@@ -83,11 +152,12 @@
 		906BD1BF163582BA0089B72F /* Parse-Demo-CocoaHeads */ = {
 			isa = PBXGroup;
 			children = (
+				906BD1FB163583BB0089B72F /* cocoaheads.png */,
+				906BD1FC163583BB0089B72F /* cocoaheads@2x.png */,
 				906BD1C8163582BA0089B72F /* TIAppDelegate.h */,
 				906BD1C9163582BA0089B72F /* TIAppDelegate.m */,
 				906BD1D1163582BA0089B72F /* MainStoryboard.storyboard */,
-				906BD1D4163582BA0089B72F /* TIViewController.h */,
-				906BD1D5163582BA0089B72F /* TIViewController.m */,
+				906BD1EE1635837E0089B72F /* ViewControllers */,
 				906BD1C0163582BA0089B72F /* Supporting Files */,
 			);
 			path = "Parse-Demo-CocoaHeads";
@@ -105,6 +175,21 @@
 				906BD1CF163582BA0089B72F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		906BD1EE1635837E0089B72F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				906BD1EF163583AC0089B72F /* TIRoomTableViewController.h */,
+				906BD1F0163583AC0089B72F /* TIRoomTableViewController.m */,
+				906BD1F1163583AC0089B72F /* TIRoomViewController.h */,
+				906BD1F2163583AC0089B72F /* TIRoomViewController.m */,
+				906BD1F3163583AC0089B72F /* TISendMessageViewController.h */,
+				906BD1F4163583AC0089B72F /* TISendMessageViewController.m */,
+				906BD1F5163583AC0089B72F /* TIUserViewController.h */,
+				906BD1F6163583AC0089B72F /* TIUserViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +249,8 @@
 				906BD1CE163582BA0089B72F /* Default@2x.png in Resources */,
 				906BD1D0163582BA0089B72F /* Default-568h@2x.png in Resources */,
 				906BD1D3163582BA0089B72F /* MainStoryboard.storyboard in Resources */,
+				906BD1FD163583BB0089B72F /* cocoaheads.png in Resources */,
+				906BD1FE163583BB0089B72F /* cocoaheads@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +263,10 @@
 			files = (
 				906BD1C6163582BA0089B72F /* main.m in Sources */,
 				906BD1CA163582BA0089B72F /* TIAppDelegate.m in Sources */,
-				906BD1D6163582BA0089B72F /* TIViewController.m in Sources */,
+				906BD1F7163583AC0089B72F /* TIRoomTableViewController.m in Sources */,
+				906BD1F8163583AC0089B72F /* TIRoomViewController.m in Sources */,
+				906BD1F9163583AC0089B72F /* TISendMessageViewController.m in Sources */,
+				906BD1FA163583AC0089B72F /* TIUserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +345,10 @@
 		906BD1DA163582BA0089B72F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse-Demo-CocoaHeads/Parse-Demo-CocoaHeads-Prefix.pch";
 				INFOPLIST_FILE = "Parse-Demo-CocoaHeads/Parse-Demo-CocoaHeads-Info.plist";
@@ -266,6 +360,10 @@
 		906BD1DB163582BA0089B72F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse-Demo-CocoaHeads/Parse-Demo-CocoaHeads-Prefix.pch";
 				INFOPLIST_FILE = "Parse-Demo-CocoaHeads/Parse-Demo-CocoaHeads-Info.plist";

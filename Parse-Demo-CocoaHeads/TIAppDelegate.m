@@ -7,11 +7,15 @@
 //
 
 #import "TIAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation TIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"YOUR_APP_KEY"
+                  clientKey:@"YOUR_CLIENT_KEY"];
+#warning Set your App and Client key above, then remove this warning line
     // Override point for customization after application launch.
     return YES;
 }
